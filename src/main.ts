@@ -5,7 +5,7 @@ import { v, w } from '@dojo/widget-core/d';
 
 class App extends WidgetBase {
 	protected render() {
-		return v('div.wrapper', [
+		return v('div', [
 			w(Hello, { name: 'CodeSandbox' }),
 			v('h2', [ 'Start editing to see some magic happen \u2728' ])
 		]);
