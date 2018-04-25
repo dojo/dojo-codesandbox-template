@@ -1,10 +1,9 @@
 import { v } from '@dojo/widget-core/d';
 import { WidgetBase } from '@dojo/widget-core/WidgetBase';
-import { WidgetProperties } from '@dojo/widget-core/interfaces';
 
 import * as css from './styles/Hello.m.css';
 
-interface HelloProperties extends WidgetProperties {
+interface HelloProperties {
 	name: string;
 }
 
