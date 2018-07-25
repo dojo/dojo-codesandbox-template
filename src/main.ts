@@ -1,7 +1,7 @@
-import { ProjectorMixin } from '@dojo/widget-core/mixins/Projector';
+import { ProjectorMixin } from '@dojo/framework/widget-core/mixins/Projector';
 import Hello from './widgets/Hello';
-import { WidgetBase } from '@dojo/widget-core/WidgetBase';
-import { v, w } from '@dojo/widget-core/d';
+import { WidgetBase } from '@dojo/framework/widget-core/WidgetBase';
+import { v, w } from '@dojo/framework/widget-core/d';
 
 class App extends WidgetBase {
 	protected render() {
