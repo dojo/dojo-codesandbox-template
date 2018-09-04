@@ -6,6 +6,7 @@
     "@dojo/core": "^2.0.0",
     "@dojo/framework": "^3.0.0",
     "@dojo/widgets": "^3.0.0",
+    "cldrjs": "^0.4.6",
     "tslib": "~1.8.1"
   },
   "devDependencies": {
