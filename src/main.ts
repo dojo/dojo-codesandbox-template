@@ -1,6 +1,6 @@
-import { ProjectorMixin } from '@dojo/framework/widget-core/mixins/Projector';
+import WidgetBase from '@dojo/framework/widget-core/WidgetBase';
+import renderer from '@dojo/framework/widget-core/vdom';
 import Hello from './widgets/Hello';
-import { WidgetBase } from '@dojo/framework/widget-core/WidgetBase';
 import { v, w } from '@dojo/framework/widget-core/d';
 
 class App extends WidgetBase {
@@ -12,7 +12,5 @@ class App extends WidgetBase {
 	}
 }
 
-const Projector = ProjectorMixin(App);
-const projector = new Projector();
-
-projector.append();
+const r = renderer(() => w(App, {}));
+r.mount();
