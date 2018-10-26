@@ -5,7 +5,7 @@
   "dependencies": {
     "@dojo/framework": "^4.0.0",
     "@dojo/widgets": "^4.0.0",
-    "cldrjs": "0.4.6",
+    "cldrjs": "~0.4.6",
     "tslib": "~1.8.1"
   },
   "devDependencies": {
