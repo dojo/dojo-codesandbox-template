@@ -9,8 +9,8 @@ class App extends WidgetBase {
 	protected render() {
 		return (
 			<div>
-				<Hello name="CodeSandbox"/>
-				<h2>Start editing to see some magic happen \u2728</h2>
+				<Hello name="Dojo CodeSandbox"/>
+				<h2>{'Start editing to see some magic happen \u2728'}</h2>
 			</div>
 		);
 	}
