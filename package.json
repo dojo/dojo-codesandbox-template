@@ -1,11 +1,11 @@
 {
   "name": "dojo-codesandbox-template",
   "version": "1.0.0",
-  "main": "src/main.ts",
+  "main": "src/main.tsx",
   "dependencies": {
-    "@dojo/framework": "^4.0.0",
-    "@dojo/widgets": "^4.0.0",
-    "cldrjs": "~0.4.6",
+    "@dojo/framework": "^5.0.0",
+    "@dojo/widgets": "^5.0.0",
+    "cldrjs": "0.5.0",
     "tslib": "~1.8.1"
   },
   "devDependencies": {
