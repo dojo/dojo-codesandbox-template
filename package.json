@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "src/main.tsx",
   "dependencies": {
-    "@dojo/framework": "next",
-    "@dojo/widgets": "next",
-    "@dojo/themes": "^4.0.0",
+    "@dojo/framework": "^5.0.0",
+    "@dojo/widgets": "^5.0.0",
+    "@dojo/themes": "^5.0.0",
     "cldrjs": "0.5.0",
     "tslib": "~1.8.1"
   },
