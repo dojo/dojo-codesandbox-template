@@ -1,5 +1,4 @@
 import { renderer, create, tsx } from '@dojo/framework/core/vdom';
-import '@dojo/themes/dojo/index.css';
 
 import Hello from './widgets/Hello';
 
